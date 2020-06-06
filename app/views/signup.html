@@ -1,0 +1,54 @@
+#{extends 'main.html' /}
+#{set title:'Signup' /}
+#{welcomemenu id:"signup"/}
+
+<div class="ui two column grid basic middle aligned segment">
+    <div class="column">
+        <form class="ui stacked segment form" action="/register" method="POST">
+            <h3 class="ui header">Register</h3>
+            <div class="two fields">
+                <div class="field">
+                    <label>First Name</label>
+                    <input placeholder="First Name" type="text" name="firstname">
+                </div>
+                <div class="field">
+                    <label>Last Name</label>
+                    <input placeholder="Last Name" type="text" name="lastname">
+                </div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label>Email</label>
+                    <input placeholder="Email" type="text" name="email">
+                </div>
+                <div class="field">
+                    <label>Password</label>
+                    <input type="password" type="text" name="password">
+                </div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label>Address</label>
+                    <input placeholder="Address" type="text" name="address">
+                </div>
+                <div class="field">
+                    <label>Height</label>
+                    <input placeholder="Height" type="text" name="height">
+                </div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label>Start Weight</label>
+                    <input placeholder="Start Weight" type="text" name="startWeight">
+                </div>
+                <div class="field">
+                    <label>Gender</label>
+                    <input placeholder="Gender" type="text" name="gender">
+                </div>
+            </div>
+            <button class="ui blue submit button">Submit</button>
+    </div>
+</div>
+</form>
+</div>
+</div>

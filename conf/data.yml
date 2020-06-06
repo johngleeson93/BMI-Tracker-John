@@ -1,0 +1,58 @@
+Assessment(a1):
+  weight: 53.3
+  chest: 45.0
+  thigh: 12.5
+  upperArm: 23.3
+  waist: 32.0
+  hips: 38.0
+
+Assessment(a2):
+  weight: 60.3
+  chest: 40.0
+  thigh: 15.0
+  upperArm: 35.3
+  waist: 32.0
+  hips: 35.0
+
+Assessment(a3):
+  weight: 75.3
+  chest: 45.0
+  thigh: 16.0
+  upperArm: 3.3
+  waist: 34.0
+  hips: 36.0
+
+Assessment(a4):
+  weight: 40
+  chest: 45.0
+  thigh: 16.0
+  upperArm: 3.3
+  waist: 34.0
+  hips: 36.0
+
+Member(m1):
+  firstname: John
+  lastname: Gleeson
+  email: john.gleeson93@gmail.com
+  password: johnnyg93
+  address: springfield
+  gender: male
+  height: 178
+  startingweight: 86
+  assessmentList:
+    - a1
+    - a2
+
+Member(m2):
+  firstname: marge
+  lastname: simpson
+  email: marge@simpson.com
+  password: secret
+  address: springfield
+  gender: female
+  height: 152
+  startingweight: 55
+  assessmentList:
+    - a3
+    - a4
+
