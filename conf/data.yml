@@ -41,7 +41,6 @@ Member(m1):
   startingweight: 86
   assessmentList:
     - a1
-    - a2
 
 Member(m2):
   firstname: marge
@@ -53,6 +52,7 @@ Member(m2):
   height: 152
   startingweight: 55
   assessmentList:
+    - a2
     - a3
     - a4
 
