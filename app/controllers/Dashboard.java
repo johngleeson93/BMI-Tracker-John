@@ -23,7 +23,7 @@ public class Dashboard extends Controller {
         Logger.info("Rendering Dashboard");
         Member member = Accounts.getLoggedInMember();
         List<Assessment> assessmentList = member.assessmentList;
-        double bmi = Utility.calculateBMI(member, assessmentList.get(-1));
+        double bmi = Utility.calculateBMI(member, assessmentList.get(0));
         String getCategory = Utility.getCategory(bmi);
         render("dashboard.html", member, assessmentList, bmi, getCategory);
     }
