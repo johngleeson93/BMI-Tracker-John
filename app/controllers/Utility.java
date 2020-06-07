@@ -14,7 +14,7 @@ public class Utility extends Model {
     public static double calculateBMI(Member member, Assessment assessmentList) {
         double bmi;
             bmi = (Math.round(assessmentList.getWeight()) / ((member.getHeight() / 100) * (member.getHeight() / 100)));
-        return bmi;
+        return Math.round(bmi);
     }
 
     public static String getCategory(double bmi) {
